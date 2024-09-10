@@ -1,0 +1,72 @@
+# Ignorar archivos de sistema de Windows
+Thumbs.db
+Desktop.ini
+
+
+# Ignorar carpetas relacionadas con entornos de desarrollo locales
+node_modules/
+dist/
+build/
+
+
+# Ignorar archivos de configuración específicos de editores de texto o IDEs
+*.log
+*.cache
+*.tmp
+*.pid
+*.env
+*.bak
+
+
+# Ignorar archivos de configuración de Visual Studio Code
+.vscode/
+
+
+# Ignorar archivos de configuración de JetBrains IDEs (WebStorm, IntelliJ)
+.idea/
+
+
+# Ignorar archivos de sistema de MacOS (en caso de que uses Mac en algún momento)
+.DS_Store
+
+
+# Ignorar archivos de carpeta de imágenes
+imagenes/
+
+
+# Ignorar archivos de la carpeta de cache del navegador
+.cache/
+
+
+# Ignorar archivos de configuración de Git y de sistema operativo
+.gitignore
+# Windows
+Thumbs.db
+desktop.ini
+
+
+# Node.js (si usas)
+node_modules/
+# Ignorar carpetas de sistema y archivos innecesarios
+*.log
+.DS_Store
+*.zip
+*.tmp
+*.bak
+*.old
+# Ignorar carpetas del sistema de Windows
+AppData/
+Contacts/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+NTUSER.DAT
+Pictures/
+Saved Games/
+Searches/
+# Ignorar carpetas de Visual Studio Code o IDEs locales
+.vscode/
+.idea/
