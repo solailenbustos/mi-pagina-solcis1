@@ -3,51 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Solcis</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Solcis Bustos - Diseñadora</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Solcis Bustos</a>
+        <a class="navbar-brand" href="index.html">Solcis Bustos</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="paginas/diseños.html">Diseños</a></li>
-                <li class="nav-item"><a class="nav-link" href="paginas/marketing.html">Marketing</a></li>
-                <li class="nav-item"><a class="nav-link" href="paginas/sobre-mi.html">Sobre mí</a></li>
+                <li class="nav-item"><a class="nav-link" href="diseños.html">Diseños</a></li>
+                <li class="nav-item"><a class="nav-link" href="marketing.html">Marketing</a></li>
+                <li class="nav-item"><a class="nav-link" href="sobre-mi.html">Sobre mí</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Sección de Bienvenida -->
-    <section class="container my-5">
+    <!-- Sección Principal -->
+    <header class="jumbotron text-center my-5">
+        <h1 class="display-4">Bienvenidos a mi Portafolio</h1>
+        <p class="lead">Soy Solcis Bustos, una diseñadora apasionada por la creatividad y la innovación.</p>
+        <a href="diseños.html" class="btn btn-primary">Ver mis diseños</a>
+    </header>
+
+    <!-- Sección de Diseños -->
+    <section class="container">
+        <h2 class="text-center my-5">Tipos de Diseños</h2>
         <div class="row">
             <div class="col-md-6">
-                <h1>Bienvenida a mi página</h1>
-                <p>Soy Solcis Bustos, diseñadora y emprendedora. Explora mis trabajos y proyectos en las secciones de diseño y marketing.</p>
+                <h3 class="text-center">Comerciales</h3>
+                <a href="comerciales.html">
+                    <img src="imagenes/comerciales_thumb.jpg" class="img-fluid" alt="Diseños Comerciales">
+                </a>
             </div>
-            <div class="col-md-6 text-center">
-                <img src="imagenes/tu-foto.jpg" class="rounded-circle img-fluid" alt="Foto de Solcis">
-            </div>
-        </div>
-    </section>
-
-    <!-- Sección con botones a las secciones -->
-    <section class="container my-5">
-        <div class="row">
-            <div class="col-md-4 text-center">
-                <img src="imagenes/comercial1.jpg" class="img-fluid" alt="Diseños Comerciales">
-                <h3>Diseños Comerciales</h3>
-                <a href="paginas/comerciales.html" class="btn btn-primary">Ver más</a>
-            </div>
-            <div class="col-md-4 text-center">
-                <img src="imagenes/experimental1.jpg" class="img-fluid" alt="Diseños Experimentales">
-                <h3>Diseños Experimentales</h3>
-                <a href="paginas/experimentales.html" class="btn btn-primary">Ver más</a>
+            <div class="col-md-6">
+                <h3 class="text-center">Experimentales</h3>
+                <a href="experimentales.html">
+                    <img src="imagenes/experimentales_thumb.jpg" class="img-fluid" alt="Diseños Experimentales">
+                </a>
             </div>
         </div>
     </section>
