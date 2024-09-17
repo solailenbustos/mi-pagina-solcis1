@@ -1,3 +1,7 @@
+
+// Importar la fuente de Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
 // Variables
 $primary-color: #ff69b4;
 $secondary-color: #28a745;
@@ -37,4 +41,13 @@ body {
     &:hover {
         background-color: darken($secondary-color, 10%);
     }
+}
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700; // Opcional, para estilos en negrita
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-style: italic; // Aplica cursiva a los párrafos
 }

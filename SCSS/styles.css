@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
 body {
   font-family: Arial, sans-serif;
   background-color: #f8f9fa;
@@ -27,4 +28,14 @@ body {
 }
 .btn-primary:hover {
   background-color: #1e7e34;
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
 }/*# sourceMappingURL=styles.css.map */
