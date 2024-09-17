@@ -1,0 +1,9 @@
+.jumbotron {
+    background-color: $primary-color;
+    color: $background-color;
+    padding: 2rem 1rem;
+}
+
+.row {
+    @include center-container;
+}

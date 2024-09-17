@@ -1,0 +1,12 @@
+// Mixin para un contenedor centrado
+@mixin center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+// Mixin para un borde redondeado
+@mixin rounded-border($radius) {
+    border-radius: $radius;
+}

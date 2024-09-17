@@ -1,0 +1,14 @@
+// Estilos responsivos
+@media (max-width: 768px) {
+    h1 {
+        font-size: $font-size-large;
+    }
+    
+    h3 {
+        font-size: $font-size-base;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+}

@@ -1,0 +1,42 @@
+// Variables
+$primary-color: #ff69b4;
+$secondary-color: #28a745;
+
+// Estilos generales
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+// Navbar
+.navbar {
+    background-color: $primary-color;
+    .nav-link {
+        color: white;
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+}
+
+// Jumbotron
+.jumbotron {
+    background-color: $primary-color;
+    color: white;
+    padding: 2rem;
+}
+
+// Botón
+.btn-primary {
+    background-color: $secondary-color;
+    border: none;
+}
+// Animación para botones
+.btn-primary {
+    transition: background-color 0.3s ease;
+    &:hover {
+        background-color: darken($secondary-color, 10%);
+    }
+}
+
