@@ -12,6 +12,7 @@ body {
 // Navbar
 .navbar {
     background-color: $primary-color;
+
     .nav-link {
         color: white;
         &:hover {
@@ -31,12 +32,9 @@ body {
 .btn-primary {
     background-color: $secondary-color;
     border: none;
-}
-// Animación para botones
-.btn-primary {
     transition: background-color 0.3s ease;
+
     &:hover {
         background-color: darken($secondary-color, 10%);
     }
 }
-

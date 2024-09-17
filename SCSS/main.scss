@@ -1,15 +1,18 @@
-// Importar variables y mixins
+// main.scss
+
+// Importar variables y mixins primero
 @import 'variables';
 @import 'mixins';
 
-// Importar estilos base
+// Importar estilos globales
 @import 'base';
 
-// Importar componentes
-@import 'components';
-
-// Importar layout
+// Importar estilos de layout
 @import 'layout';
+
+// Importar estilos de componentes
+@import 'components';
 
 // Importar estilos responsivos
 @import 'responsive';
+

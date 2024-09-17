@@ -34,11 +34,10 @@ h1, h3 {
   padding: 2rem 1rem;
 }
 
-.row {
+.contenedor {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 @media (max-width: 768px) {
