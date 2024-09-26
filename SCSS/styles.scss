@@ -1,9 +1,13 @@
-@import 'variables';
-@import 'mixins';
-@import 'navbar';
-@import 'diseños';
-@import 'variables';
-@import 'responsive';
+@import './_variables.scss';
+@import './_diseños.scss';
+@import './_global.scss';
+@import './_mixins.scss';
+@import './_navbar.scss';
+@import './_responsive.scss';
+@import './_sobremi.scss';
+@import './main.css';
+@import './main.css.map';
+
 .sobre-mi {
     display: flex;
     flex-direction: column;
