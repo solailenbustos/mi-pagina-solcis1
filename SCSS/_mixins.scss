@@ -1,6 +1,6 @@
-// Definición del mixin centrado-flex
-@mixin centrado-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+// Ejemplo de un mixin para centrar elementos
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

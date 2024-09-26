@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Solcis Bustos, diseñadora de indumentaria y marketing.">
+    <meta name="keywords" content="diseño, marketing, portafolio, Solcis Bustos, indumentaria, creatividad, innovación">
+    <meta name="author" content="Solcis Bustos">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <title>Solcis Bustos - Diseñadora</title>
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css">
+    
+    <!-- Estilos personalizados -->
     <link rel="stylesheet" href="./SCSS/styles.css">
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -28,7 +38,7 @@
     <header class="jumbotron text-center my-5">
         <h1 class="display-4">Bienvenidos a mi Portafolio</h1>
         <p class="lead">Soy Solcis Bustos, una diseñadora apasionada por la creatividad y la innovación.</p>
-        <a href="paginas/sobremi.html" class="btn btn-primary">Más sobre mi</a>
+        <a href="paginas/sobremi.html" class="btn btn-primary">Más sobre mí</a>
     </header>
 
     <!-- Sección de Diseños -->
@@ -38,19 +48,22 @@
             <div class="col-md-6">
                 <h3 class="text-center">Diseños</h3>
                 <a href="paginas/diseños.html">
-                    <img src="/imagenes/comerciales_thumb.jpg" class="img-fluid" alt="Diseños Comerciales">
+                    <!-- Añadir lazy loading para mejorar rendimiento -->
+                    <img src="./imagenes/comerciales_thumb.jpg" class="img-fluid" alt="Diseños Comerciales" loading="lazy">
                 </a>
             </div>
             <div class="col-md-6">
                 <h3 class="text-center">Marketing</h3>
                 <a href="paginas/marketing.html">
-                    <img src="imagenes/logo_lima.jpg" class="img-fluid" alt="Diseños Experimentales">
+                    <img src="./imagenes/logo_lima.jpg" class="img-fluid" alt="Marketing Lima" loading="lazy">
                 </a>
             </div>
         </div>
     </section>
 
+    <!-- Bootstrap y jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
