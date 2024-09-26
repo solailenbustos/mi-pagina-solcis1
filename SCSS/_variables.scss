@@ -1,19 +1,10 @@
-// Variables de colores
-$primary-color: #007bff;
-$secondary-color: #6c757d;
-$background-color: #f8f9fa;
-$text-color: #333;
+// Colores principales
+$primary-color: #ff69b4; // Color rosa, tu color preferido
+$secondary-color: #00b894; // Verde o cualquier color de contraste
+$font-color: #333; // Color del texto principal
 
-// Variables de fuentes
-$font-family-base: 'Arial', sans-serif;
-$font-size-base: 16px;
-$font-size-large: 24px;
-$font-size-small: 12px;
-// Variables de colores
-$primary-color: #ff2366;  // Color rosa que mencionas
-$secondary-color: #6ab04c; // Verde
-$background-color: #f0f0f0; // Fondo claro
+// Fuentes
+$font-family: 'Arial', sans-serif;
 
-// Tipografía
-$font-family: 'Roboto', sans-serif;
-$heading-font: 'Playfair Display', serif;
+// Espaciado
+$spacing-unit: 1rem;

@@ -1,18 +1,9 @@
-nav {
-    background-color: $primary-color; // Color del fondo del navbar
-    .navbar-brand {
-      color: white;
-      font-family: $heading-font;
-      font-size: 1.5rem;
-    }
-    .nav-link {
-      color: white;
-      &:hover {
-        color: $secondary-color;
-      }
-    }
-    .navbar-toggler-icon {
-      background-color: white;
+.navbar {
+  background-color: $primary-color;
+  .navbar-brand, .nav-link {
+    color: white;
+    &:hover {
+      color: $secondary-color;
     }
   }
-  
+}
