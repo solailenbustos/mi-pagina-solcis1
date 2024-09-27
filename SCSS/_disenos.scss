@@ -3,8 +3,9 @@ section.container {
     padding: 3rem 0;
   
     h1 {
-      font-family: $heading-font;
-      color: $primary-color;
+      font-family: $heading-font: 'Playfair Display', serif;
+
+      color: $primary-color: #ff69b4;
     }
   
     .card {

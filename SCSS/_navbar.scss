@@ -1,9 +1,12 @@
+@import './variables.scss'; 
+@import 'variables';
+
 .navbar {
-  background-color: $primary-color;
-  .navbar-brand, .nav-link {
-    color: white;
-    &:hover {
-      color: $secondary-color;
+    padding: $spacing-unit;
+    background-color: $secondary-color;
+    
+    a {
+        font-size: $font-size-medium;
+        color: white;
     }
-  }
 }

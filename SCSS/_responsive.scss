@@ -1,8 +1,11 @@
 // Estilos responsivos
-@media (max-width: 768px) {
-    h1 {
-        font-size: $font-size-large;
-    }
+@media (max-width: 768px) 
+
+
+h1 {
+    font-size: $font-size-large; // Usa la variable aquí
+}
+
     
     h3 {
         font-size: $font-size-base;
