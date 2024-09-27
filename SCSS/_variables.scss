@@ -1,7 +1,12 @@
-//variables.scss
-$font-size-large: 2rem; // Tamaño de fuente grande
-$font-size-medium: 1.5rem; // Tamaño de fuente mediano
-$font-size-small: 1rem; // Tamaño de fuente pequeño
+// _variables.scss
+$font-size-large: 2rem;
+$font-size-medium: 1.5rem;
+$font-size-small: 1rem;
 
-$primary-color: #ff0077; // Color principal
+$primary-color: #ff0077; // Color primario
 $secondary-color: #00ff77; // Color secundario
+$font-color: #333; // color de texto
+$heading-font: 'Playfair Display', serif;
+$font-family: 'Montserrat', sans-serif;
+$spacing-unit: 1rem; // Unidad de espaciado
+$font-color: #333;

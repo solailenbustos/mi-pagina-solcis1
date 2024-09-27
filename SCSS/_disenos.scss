@@ -1,33 +1,42 @@
-section.container {
-    background-color: $background-color;
-    padding: 3rem 0;
-  
-    h1 {
-      font-family: $heading-font: 'Playfair Display', serif;
+// Define las variables
+$background-color: #f0f0f0;
+$primary-color: #ff69b4;
+$secondary-color: #ff1493;
+$heading-font: 'Playfair Display', serif;
+$font-family: 'Arial', sans-serif;
 
-      color: $primary-color: #ff69b4;
+section.container {
+  background-color: $background-color;
+  padding: 3rem 0;
+
+  h1 {
+    font-family: $heading-font;
+    color: $primary-color;
+  }
+
+  .card {
+    border: none;
+
+    .card-img-top {
+      border-radius: 0.5rem;
     }
-  
-    .card {
-      border: none;
-      .card-img-top {
-        border-radius: 0.5rem;
-      }
-      .card-body {
-        text-align: center;
-        p {
-          font-family: $font-family;
-          color: #333;
-        }
-      }
-    }
-  
-    .btn {
-      background-color: $primary-color;
-      border: none;
-      &:hover {
-        background-color: $secondary-color;
+
+    .card-body {
+      text-align: center;
+
+      p {
+        font-family: $font-family;
+        color: #333;
       }
     }
   }
-  
+
+  .btn {
+    background-color: $primary-color;
+    border: none;
+
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+}

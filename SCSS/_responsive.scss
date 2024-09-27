@@ -1,17 +1,16 @@
-// Estilos responsivos
-@media (max-width: 768px) 
+// _responsive.scss
+@import './variables'; // Asegúrate de que este archivo existe
 
-
-h1 {
-    font-size: $font-size-large; // Usa la variable aquí
-}
-
-    
-    h3 {
-        font-size: $font-size-base;
+@media (max-width: 768px) {
+    body {
+        background-color: $primary-color; // Cambia el color de fondo para pantallas pequeñas
     }
-    
-    .btn {
-        width: 100%;
+
+    h1 {
+        font-size: $font-size-medium; // Ajuste de tamaño para h1
+    }
+
+    h2 {
+        font-size: $font-size-small; // Ajuste de tamaño para h2
     }
 }

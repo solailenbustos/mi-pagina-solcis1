@@ -1,22 +1,21 @@
 #sobre-mi {
-    .cv-image {
-      max-width: 100%;
-      border: 2px solid $secondary-color;
-    }
-  
-    .certificate-image {
-      max-width: 80%;
-      margin-bottom: $spacing-unit;
-    }
-  
-    p {
-      color: $font-color;
-      font-family: $font-family;
-    }
-  
-    h2 {
-      color: $primary-color;
-      margin-bottom: $spacing-unit * 2;
-    }
+  .cv-image {
+    max-width: 100%;
+    border: 2px solid $secondary-color;
   }
-  
+
+  .certificate-image {
+    max-width: 80%;
+    margin-bottom: $spacing-unit;
+  }
+
+  p {
+    color: $font-color;
+    font-family: $font-family;
+  }
+
+  h2 {
+    color: $primary-color;
+    margin-bottom: $spacing-unit * 2;
+  }
+}
