@@ -2,9 +2,8 @@
 @import 'mixins';
 @import 'navbar';
 @import 'responsive';
-@import 'sobremi';
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
-
+@import 'sobremi'; 
 body {
     font-family: $font-family; 
     color: $font-color;
